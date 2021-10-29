@@ -1,0 +1,44 @@
+[
+    {
+        "tittle": "Coxsbazar",
+        "description": "This Catagory product is value for money",
+        "id": "1",
+        "price": "500$",
+        "image": "https://www.tourismkeari.com/static/products/15e31ad073097f.jpg"
+    },
+    {
+        "tittle": "Sentmartin",
+        "description": "This Catagory product is value for money",
+        "id": "2",
+        "price": "500$",
+        "image": "https://goeco.jagoroniya.com/wp-content/uploads/2019/10/saintmartinIsland.jpg"
+    },
+    {
+        "tittle": "Shylet",
+        "description": "This Catagory product is value for money",
+        "id": "3",
+        "price": "500$",
+        "image": "https://cdn.getyourguide.com/img/tour/5728ce3b7284b.jpeg/146.jpg"
+    },
+    {
+        "tittle": "Sondorban",
+        "description": "This Catagory product is value for money",
+        "id": "4",
+        "price": "500$",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYzIbZ6W0ln6WD5s8ijLz5DLWOOK-_IqpLQ&usqp=CAU"
+    },
+    {
+        "tittle": "Rangamati",
+        "description": "This Catagory product is value for money",
+        "id": "5",
+        "price": "500$",
+        "image": "https://live.staticflickr.com/5591/14885730736_8ee6652e9e_b.jpg"
+    },
+    {
+        "tittle": "Bandorban",
+        "description": "This Catagory product is value for money",
+        "id": "6",
+        "price": "500$",
+        "image": "https://static.dw.com/image/36479275_303.jpg"
+    }
+]

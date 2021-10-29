@@ -17,6 +17,7 @@ const Booking = () => {
             <p>Description{service.description}</p>
             <img src={service.img} alt="" />
             <h2>this is booking: {id}</h2>
+            <button>add to chart go to my order</button>
 
         </div>
     );

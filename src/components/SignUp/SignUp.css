@@ -1,8 +1,8 @@
-.login-div{
-    background-color: rgba(180, 185, 184, 0.685);
+.signup-div{
+     background-color: rgba(199, 199, 199, 0.63);
     border: 2px solid green;
     border-radius: 10px;
 }
-.login-div:hover{
+.signup-div:hover{
     background-color: rgba(106, 170, 177, 0.623);
 }

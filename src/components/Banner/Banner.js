@@ -18,17 +18,17 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src={'https://wallpaperaccess.com/full/488392.jpg'} className="d-block w-100" alt="..." />
+                    <img src={'https://i.ytimg.com/vi/al7ISy___JE/maxresdefault.jpg'} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h2 className="text-success">Best Castomer Services</h2>
-                        <h4 className="text-success">"Ensure more less than price in market and ensure castomer satisfaction"</h4>
+
+
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src={'https://wallpaperaccess.com/full/488392.jpg'} className="d-block w-100" alt="..." />
+                    <img src={'https://uicreative.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/11/23085956/Pinterest_preview3.jpg'} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h2 className="text-success">Best Castomer Services</h2>
-                        <h4 className="text-success">"Ensure more less than price in market and ensure castomer satisfaction"</h4>
+                        {/* <h2 className="text-success">Best Castomer Services</h2> */}
+
                     </div>
                 </div>
             </div>

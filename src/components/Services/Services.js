@@ -17,7 +17,7 @@ const Services = () => {
         <div>
             <h1 className="mb-5">Most Favorite place for visite</h1>
             <div className="container">
-                <div className="row gy-5 mb-3">
+                <div className="row gy-5 mb-5">
                     {
                         services.map(service => <Service
                             key={service.id}

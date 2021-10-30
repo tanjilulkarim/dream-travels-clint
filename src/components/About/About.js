@@ -23,10 +23,10 @@ const About = () => {
                     <h3 className="text-primary text-center">Our Vision</h3>
                     <img className="border border-5" height="457px" width="100%" src={'https://www.livingoutlau.com/wp-content/uploads/2021/03/Travel-With-Kids-Quotes.jpg'} alt="" />
                     <p className="text-success text-center mt-2">
-                        "Honesth is the best business policy. We work with honetly.We ensure good service and offer value Money"
+                        "Honest is the best business policy. We work with honetly.We ensure good service and offer value Money"
                     </p>
                     <p className="text-primary text-center mt-2">
-                        "Honesth is the best business policy. We work with honetly.We ensure good service and offer value Money"
+                        "Honest is the best business policy. We work with honetly.We ensure good service and offer value Money"
                     </p>
                     <p className="text-secondary text-center mt-2">
                         "Ensure more less than price in market and ensure castomer satisfaction"
@@ -51,7 +51,7 @@ const About = () => {
                     <div className="col-12 col-md-6 img-ceo">
                         <img height="150px" src={'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/163232144/original/3d509828e3481cf3a1c38c82fb807c3aa55af7df/create-speech-bubble-qutation-posters-and-add-speech-bubble-on-your-photos.png'} alt="" />
                         <h5 className="text-success text-center mt-2"><blockquote>
-                            ""Honesth is the best business policy. We work with honetly.We ensure good service and offer value Money""
+                            ""Honest is the best business policy. We work with honetly.We ensure good service and offer value Money""
                         </blockquote></h5>
                     </div>
                     <br />

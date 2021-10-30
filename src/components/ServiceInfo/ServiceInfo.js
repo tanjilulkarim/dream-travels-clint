@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 
 const ServiceInfo = () => {
@@ -23,8 +24,10 @@ const ServiceInfo = () => {
                     <h2>${service.price}</h2>
                     <h5>Id: {id}</h5>
 
-                    <button>add to chart go to my order</button>
 
+                    <Link to={`/myBooking/${id}`}>
+                        <button>add to chart go to my order</button>
+                    </Link>
                     {/* 
                     <Link to={`/services/${_id}`}>
                         <button type="button" className="btn btn-light">add to chart go to my order</button>

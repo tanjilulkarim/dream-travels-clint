@@ -10,9 +10,9 @@ const Footer = () => {
                         <i className="fab fa-instagram-square me-3"></i>
                         <i className="fab fa-twitter-square"></i>
                     </div>
-                    <p className="text-white mb-2">citycare. Support. Contact</p>
+                    <p className="text-white mb-2">dreamtravels. Support. Contact</p>
                     <p className="text-white mb-3">Terms of use. Privacy policy</p>
-                    <p>© 2021 City Care is Proudly Powered by <a href="https://www.facebook.com/tanjil.karim.58" target="_blank" rel="noreferrer">Tanjil</a></p>
+                    <p>© 2021 Dream Travels Powered by <a href="https://www.facebook.com/tanjil.karim.58" target="_blank" rel="noreferrer">Tanjil</a></p>
 
 
                 </div>

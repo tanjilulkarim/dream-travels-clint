@@ -11,6 +11,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import ManageServices from './components/ManageServices/ManageServices';
+import MyBooking from './components/MyBooking/MyBooking';
 import PageNotFund from './components/PageNotFound/PageNotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ServiceInfo from './components/ServiceInfo/ServiceInfo';
@@ -43,6 +44,11 @@ function App() {
             <Route path="/addServices">
               <AddService></AddService>
             </Route>
+            <Route path="/myBooking/:id">
+              <MyBooking></MyBooking>
+
+            </Route>
+
             <Route path="/manageServices">
               <ManageServices></ManageServices>
             </Route>

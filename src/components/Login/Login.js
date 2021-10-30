@@ -43,9 +43,10 @@ const Login = () => {
                         </form>
 
                         <div className="text-center">
-                            <h4 className="text-success m-3">Login With</h4>
-                            <button onClick={signInWithGoogle} className="btn">
-                                <img width="60px" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt="" />
+                            <h4 className="text-success m-3">Connect With</h4>
+                            <button onClick={signInWithGoogle} className="btn mb-3">
+                                <img width="50px" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt="" />
+
                             </button>
 
                         </div>

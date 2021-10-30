@@ -1,33 +1,37 @@
 import React from 'react';
+import Test from '../Test/Test';
 import './About.css';
 
 const About = () => {
     return (
         <div className="container">
+
+
             <div className="row py-5 my-5">
                 <img src={'https://www.freepngimg.com/download/welcome/26832-4-welcome-hd.png'} alt="" />
-                <h1 className="text-center  mb-5 about-tittle ">Dream Travels</h1>
+                <Test></Test>
+                {/* <h1 className="text-center  mb-5 about-tittle ">Dream Travels</h1> */}
                 <div className="col-12 col-lg-6">
                     <h3 className="text-primary text-center">About Us</h3>
-                    <img height="457px" width="100%" src={'https://befamilytravel.com/wp-content/uploads/2020/05/Family-Travel-Quotes-Blog-Banner.png'} alt="" />
-                    <h5 className="text-success text-center mt-2">City Care online pharmacy and healthcare is one the most pupular pharmacy in Bangladesh</h5>
-                    <p>Pharmacists provide optimal management of medication for chronic diseases such as diabetes, asthma, hypertension, etc. The collaboration of healthcare professionals, such as physicians and pharmacists, can help to ensure that patients properly take their medications as prescribed and avoid any harmful effects.</p>
+                    <img className="border border-5  " height="457px" width="100%" src={'https://befamilytravel.com/wp-content/uploads/2020/05/Family-Travel-Quotes-Blog-Banner.png'} alt="" />
+                    <h5 className="text-success text-center mt-2">Dream Travels  is one the most pupular Travels website in Bangladesh</h5>
+                    <p>Reasons for traveling include recreation,[4] holidays,[5] tourism[4] or vacationing,[4] research travel,[4] the gathering of information, visiting people, volunteer travel for charity, migration to begin life somewhere else, religious pilgrimages[4] and mission trips, business travel,[4] trade,[4] commuting, and other reasons, such as to obtain health care[4] or waging or fleeing war or for the enjoyment of traveling. Travelers may use human-powered transport such as walking or bicycling; or vehicles, such as public transport, automobiles, trains, ferries, boats, cruise ships and airplanes.</p>
                     <br />
                     <p></p>
                 </div>
                 <div className="col-12 col-lg-6">
                     <h3 className="text-primary text-center">Our Vision</h3>
-                    <img height="457px" width="100%" src={'https://www.livingoutlau.com/wp-content/uploads/2021/03/Travel-With-Kids-Quotes.jpg'} alt="" />
-                    <p className="text-success text-center mt-2"><blockquote>
-                        "We can always try to fast delivery and quality product"
-                    </blockquote></p>
-                    <p className="text-primary text-center mt-2"><blockquote>
-                        "Free delivery in Dhaka city and 1 hour garranted delivery"
-                    </blockquote></p>
-                    <p className="text-secondary text-center mt-2"><blockquote>
+                    <img className="border border-5" height="457px" width="100%" src={'https://www.livingoutlau.com/wp-content/uploads/2021/03/Travel-With-Kids-Quotes.jpg'} alt="" />
+                    <p className="text-success text-center mt-2">
+                        "Honesth is the best business policy. We work with honetly.We ensure good service and offer value Money"
+                    </p>
+                    <p className="text-primary text-center mt-2">
+                        "Honesth is the best business policy. We work with honetly.We ensure good service and offer value Money"
+                    </p>
+                    <p className="text-secondary text-center mt-2">
                         "Ensure more less than price in market and ensure castomer satisfaction"
 
-                    </blockquote></p>
+                    </p>
 
 
                 </div>

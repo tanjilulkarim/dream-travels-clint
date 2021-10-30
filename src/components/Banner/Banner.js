@@ -11,9 +11,9 @@ const Banner = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={'https://www.wallpapertip.com/wmimgs/5-53669_youtube-cover-photo-for-travel.jpg'} className="d-block w-100" alt="..." />
+                    <img src={'https://uicreative.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/11/23085956/Pinterest_preview3.jpg'} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h1 className="mb-0">Welcome to Dream Travels</h1>
+
 
                     </div>
                 </div>
@@ -25,9 +25,10 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src={'https://uicreative.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/11/23085956/Pinterest_preview3.jpg'} className="d-block w-100" alt="..." />
+                    <img src={'https://www.wallpapertip.com/wmimgs/5-53669_youtube-cover-photo-for-travel.jpg'} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
                         {/* <h2 className="text-success">Best Castomer Services</h2> */}
+                        <h1 className="mb-0">Welcome to Dream Travels</h1>
 
                     </div>
                 </div>
@@ -42,7 +43,7 @@ const Banner = () => {
             </button>
         </div>
 
-
+        //
 
     );
 };

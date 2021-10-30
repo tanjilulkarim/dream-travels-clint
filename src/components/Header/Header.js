@@ -1,7 +1,6 @@
 // import Button from '@restart/ui/esm/Button';
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import { HashLink } from 'react-router-hash-link';
@@ -46,7 +45,7 @@ const Header = () => {
                             {!user.email ?
                                 (
                                     <>
-                                        <Nav.Link as={Link} to="/signUp">SignUp</Nav.Link>
+
                                         <Nav.Link as={Link} to="/login">Login</Nav.Link>
 
                                     </>
@@ -57,7 +56,10 @@ const Header = () => {
 
                                         <Nav.Link as={HashLink} to="/addServices">AddServices</Nav.Link>
                                         <Nav.Link as={HashLink} to="/manageServices">ManageServices</Nav.Link>
-                                        <Button onClick={Logout} variant="light">Logout</Button>
+                                        <Navbar.Text>
+                                            Signed in as: <a href="#login">{user?.displayName}</a>
+                                        </Navbar.Text>
+                                        <Button className="mx-2" onClick={Logout} variant="secondary">Logout</Button>
                                     </>
 
                                 )
@@ -67,9 +69,7 @@ const Header = () => {
 
 
 
-                            <Navbar.Text>
-                                Signed in as: <a href="#login">{user?.displayName}</a>
-                            </Navbar.Text>
+
 
 
                             {/* test */}

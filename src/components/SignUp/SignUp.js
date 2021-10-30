@@ -9,7 +9,7 @@ const Signup = () => {
     const { getName, getPhoto, getEmail, getPassWord, signUp, error } = useAuth();
     return (
         <div className="container signup-container">
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-lg-4"></div>
 
                 <div className="col-lg-5 mb-5">

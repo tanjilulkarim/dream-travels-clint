@@ -11,7 +11,7 @@ const Login = () => {
     const { signInWithGoogle, error, getEmail, getPassWord, SignInWithEmail } = useAuth();
     return (
         <div className="container login-container">
-            <div className="row">
+            <div className="row mt-5 mb-3">
                 <div className="col-lg-4"></div>
 
                 <div className="col-lg-5">
@@ -43,9 +43,9 @@ const Login = () => {
                         </form>
 
                         <div className="text-center">
-                            <h4>Login With</h4>
+                            <h4 className="text-success m-3">Login With</h4>
                             <button onClick={signInWithGoogle} className="btn">
-                                <img width="40px" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt="" />
+                                <img width="60px" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt="" />
                             </button>
 
                         </div>

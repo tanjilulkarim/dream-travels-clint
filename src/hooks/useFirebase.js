@@ -17,7 +17,7 @@ const useFirebase = () => {
     const [password, setPassword] = useState("")
     const [name, setName] = useState("")
     const [photo, setPhoto] = useState("")
-
+    console.log(user);
     //  google sign in
     const signInWithGoogle = () => {
         signInWithPopup(auth, googleProvider)

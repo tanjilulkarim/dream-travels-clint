@@ -14,19 +14,19 @@ const ServiceInfo = () => {
     }, [id]);
 
     return (
-        <div className="container">
+        <div className="container bg-success text-white">
             <div className="row">
                 <div className="col-12 col-md-12 ">
                     <h2>{service.name}</h2>
-                    <img src={service.image} alt="" />
-                    <p>Description{service.description}</p>
-                    <h2>{service.duration}</h2>
-                    <h2>${service.price}</h2>
+                    <img className="mb-3 " src={service.image} alt="" />
+                    <p> <b>Description</b> :{service.description}</p>
+                    <h3>Our Offer: {service.duration}</h3>
+                    <h2>Price: ${service.price}</h2>
 
 
 
                     <Link to={`/myBooking/${id}`}>
-                        <button>add to chart </button>
+                        <button type="button" className="btn btn-primary mb-2">Add to cart</button>
                     </Link>
                     {/* 
                     <Link to={`/services/${_id}`}>

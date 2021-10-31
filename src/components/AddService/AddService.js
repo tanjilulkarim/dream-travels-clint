@@ -18,8 +18,9 @@ const AddService = () => {
     }
     return (
         <div>
-            <h1>Add New travel place</h1>
+
             <div className="add-service">
+                <h1>Add New travel place</h1>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input {...register("name")} placeholder="Name" />
 
@@ -36,7 +37,7 @@ const AddService = () => {
                     <input type="submit" />
                 </form>
             </div>
-            <h1>Thank you for add data</h1>
+
         </div>
     );
 };

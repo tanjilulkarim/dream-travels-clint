@@ -21,7 +21,8 @@ const Header = () => {
 
                             <Nav.Link as={HashLink} to="/services">Services</Nav.Link>
                             <Nav.Link as={HashLink} to="/about">About us</Nav.Link>
-                            {/* <Nav.Link as={HashLink} to="/contact">Contact us</Nav.Link> */}
+
+
 
 
 
@@ -31,7 +32,7 @@ const Header = () => {
                                 (
                                     <>
 
-                                        <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                                        <Nav.Link as={Link} to="/login"><button type="button" className="btn btn-success">Login</button></Nav.Link>
 
                                     </>
                                 ) :
@@ -42,11 +43,18 @@ const Header = () => {
                                         <Nav.Link as={HashLink} to="/addServices">AddServices</Nav.Link>
 
                                         <Nav.Link as={HashLink} to="/manageServices">ManageServices</Nav.Link>
-                                        <Nav.Link as={HashLink} to="/manageServices">My Booking</Nav.Link>
+                                        <Nav.Link as={HashLink} to="/booking">My Booking</Nav.Link>
+
+
+
+                                        <img className="rounded-circle mx-1" height="40" width="40" src={user?.photoURL} alt="" />
 
                                         <Navbar.Text>
                                             <a href="#login">{user?.displayName}</a>
                                         </Navbar.Text>
+
+
+
                                         <Button className="mx-2" onClick={Logout} variant="secondary">Logout</Button>
                                     </>
 

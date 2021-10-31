@@ -16,7 +16,7 @@ const Contact = () => {
                             <i className="fas fa-phone icon"></i>
                         </div>
                         <div className="p-4">
-                            <h4 className="card-title mb-3">+01879889966</h4>
+                            <h4 className="card-title mb-3">+0155446622</h4>
 
                             <h6 className="">We answer by phone from Monday to Saturday from 10 am until 10 pm.</h6>
 
@@ -30,7 +30,7 @@ const Contact = () => {
                             <i className="far fa-envelope icon"></i>
                         </div>
                         <div className="p-4">
-                            <h4 className="card-title mb-3">citycare@.com</h4>
+                            <h4 className="card-title mb-3">dreamtravels@.com</h4>
 
                             <h6 className="">We will respond to your email within 8 hours bussiness on days.</h6>
 
@@ -44,7 +44,7 @@ const Contact = () => {
                             <i className="fas fa-map-marker-alt icon"></i>
                         </div>
                         <div className="p-4">
-                            <h4 className="card-title mb-3">1230 Street, Dhaka</h4>
+                            <h4 className="card-title mb-3">1230 framgate, Dhaka</h4>
 
                             <h6 className="">Come visit us from Monday to Friday from 11 am to 4 pm. </h6>
 

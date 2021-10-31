@@ -6,20 +6,18 @@ const Test = () => {
 
         <div className="container">
             <div class="words word-1">
-                <span>Dream Travels</span>
-                {/* <span>T</span>
-                <span>a</span>
-                <span>n</span>
-                <span>j</span>
-                <span>i</span>
-                <span>l</span>
-                <span>u</span>
-                <span>l</span>
-                <span>k</span>
-                <span>a</span>
+                {/* <span>Dream Travels</span> */}
+                <span>D</span>
                 <span>r</span>
+                <span>e</span>
+                <span>m</span>
+                <span>T</span>
+                <span>r</span>
+                <span>a</span>
+                <span>v</span>
+                <span>e</span>
                 <span>l</span>
-                <span>m</span> */}
+                <span>s</span>
 
             </div>
         </div>

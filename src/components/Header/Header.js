@@ -45,7 +45,7 @@ const Header = () => {
                                         <Nav.Link as={HashLink} to="/manageServices">My Booking</Nav.Link>
 
                                         <Navbar.Text>
-                                            Signed in as: <a href="#login">{user?.displayName}</a>
+                                            <a href="#login">{user?.displayName}</a>
                                         </Navbar.Text>
                                         <Button className="mx-2" onClick={Logout} variant="secondary">Logout</Button>
                                     </>

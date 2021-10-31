@@ -13,10 +13,12 @@ const Home = () => {
 
     return (
         <div>
+
             <Banner></Banner>
             <Services></Services>
             <About></About>
             <Contact></Contact>
+
 
         </div>
     );

@@ -35,7 +35,7 @@ const Login = () => {
                             </div>
                             <div className="mb-3 ">
                                 <Link className="link" to="/signup">
-                                    Need an Account? Please Sign up!
+                                    Need an Account? Please Sign up!!
                                 </Link>
                             </div>
 

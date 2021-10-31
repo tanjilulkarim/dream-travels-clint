@@ -8,7 +8,7 @@ const ServiceInfo = () => {
     const [service, setService] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${id}`)
+        fetch(`https://frightening-mansion-03875.herokuapp.com/services/${id}`)
             .then(res => res.json())
             .then(data => setService(data));
     }, [id]);
@@ -22,11 +22,11 @@ const ServiceInfo = () => {
                     <p>Description{service.description}</p>
                     <h2>{service.duration}</h2>
                     <h2>${service.price}</h2>
-                    <h5>Id: {id}</h5>
+
 
 
                     <Link to={`/myBooking/${id}`}>
-                        <button>add to chart go to my order</button>
+                        <button>add to chart </button>
                     </Link>
                     {/* 
                     <Link to={`/services/${_id}`}>

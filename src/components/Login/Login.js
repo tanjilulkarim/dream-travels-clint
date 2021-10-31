@@ -2,13 +2,20 @@ import React from "react";
 import './Login.css'
 import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
+import { useHistory, useLocation } from 'react-router';
 
 
 
 
 const Login = () => {
 
-    const { signInWithGoogle, error, getEmail, getPassWord, SignInWithEmail } = useAuth();
+
+    const { signInWithGoogle, error, getEmail, getPassWord, SignInWithEmail, setIsLoading, setUser, setError } = useAuth();
+
+    const history = useHistory();
+
+    const location = useLocation();
+    const redirect = location?.state?.from || "/home";
     return (
         <div className="container login-container">
             <div className="row mt-5 mb-3">
@@ -44,7 +51,19 @@ const Login = () => {
 
                         <div className="text-center">
                             <h4 className="text-success m-3">Connect With</h4>
-                            <button onClick={signInWithGoogle} className="btn mb-3">
+                            <button onClick={() => {
+                                signInWithGoogle()
+                                    .then(result => {
+                                        setUser(result.user)
+                                        history.push(redirect)
+                                    })
+                                    .catch(err => {
+                                        setError(err.message)
+                                    })
+                                    .finally(() => {
+                                        setIsLoading(false)
+                                    })
+                            }} className="btn mb-3">
                                 <img width="50px" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt="" />
 
                             </button>

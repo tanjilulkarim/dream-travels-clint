@@ -17,19 +17,27 @@ const useFirebase = () => {
     const [password, setPassword] = useState("")
     const [name, setName] = useState("")
     const [photo, setPhoto] = useState("")
+    const [isLoading, setIsLoading] = useState(true);
+
+
     console.log(user);
     //  google sign in
     const signInWithGoogle = () => {
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                console.log(result.user)
-                setUser(result.user)
-            })
-            .catch(err => {
-
-                setError(err.message)
-            })
+        setIsLoading(true)
+        return signInWithPopup(auth, googleProvider)
     }
+    useEffect(() => {
+        onAuthStateChanged(auth, (Signeduser) => {
+            if (Signeduser) {
+                setUser(Signeduser)
+            }
+            else {
+                setUser({})
+            }
+            setIsLoading(false)
+        });
+    }, [])
+
 
 
 
@@ -137,17 +145,21 @@ const useFirebase = () => {
 
 
     return {
+        isLoading,
         signInWithGoogle,
         user,
         Logout,
         error,
+        setError,
         getPassWord,
         getEmail,
         SignInWithEmail,
         getName,
         getPhoto,
         signUp,
-        passwordReset
+        setIsLoading,
+        passwordReset,
+        setUser
     }
 }
 

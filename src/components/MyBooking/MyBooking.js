@@ -16,7 +16,7 @@ const MyBooking = () => {
 
     const handaleDelete = id => {
 
-        const uri = `http://localhost:5000/carts/${id}`;
+        const uri = (`https://frightening-mansion-03875.herokuapp.com/carts/${id}`);
         const exist = window.confirm("Are You sure want to delete ??");
         if (exist) {
             fetch(uri, {

@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Booking from './Booking/Booking';
+
 import About from './components/About/About';
 import AddService from './components/AddService/AddService';
 
@@ -12,6 +12,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import ManageServices from './components/ManageServices/ManageServices';
+import MyBooking from './components/MyBooking/MyBooking';
 
 import PageNotFund from './components/PageNotFound/PageNotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
@@ -48,8 +49,8 @@ function App() {
             <Route path="/manageServices">
               <ManageServices></ManageServices>
             </Route>
-            <Route path="/booking">
-              <Booking></Booking>
+            <Route path="/booking/:email">
+              <MyBooking></MyBooking>
             </Route>
             <Route exact path="/about">
               <About></About>

@@ -5,9 +5,21 @@ import { Link } from 'react-router-dom';
 
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../hooks/useAuth';
+import { useHistory } from 'react-router';
+
 
 const Header = () => {
     const { user, Logout } = useAuth();
+    const history = useHistory();
+
+    const handleHistory = () => {
+        history.push(`/booking/${user.email}`);
+    }
+
+
+
+
+
     return (
         <div>
             <>
@@ -42,8 +54,10 @@ const Header = () => {
 
                                         <Nav.Link as={HashLink} to="/addServices">AddServices</Nav.Link>
 
-                                        <Nav.Link as={HashLink} to="/manageServices">ManageServices</Nav.Link>
-                                        <Nav.Link as={HashLink} to="/booking">My Booking</Nav.Link>
+                                        <Nav.Link as={HashLink} to="/manageServices">Manage Booking</Nav.Link>
+                                        {/* <Nav.Link as={HashLink} to="/booking/:email">My Booking</Nav.Link> */}
+
+                                        <p className="text-primary   mt-3" onClick={handleHistory}>My booking</p>
 
 
 

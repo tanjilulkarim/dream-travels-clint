@@ -16,6 +16,7 @@ const Login = () => {
 
     const location = useLocation();
     const redirect = location?.state?.from || "/home";
+
     return (
         <div className="container login-container">
             <div className="row mt-5 mb-3">

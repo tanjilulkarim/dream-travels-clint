@@ -54,7 +54,7 @@ const Header = () => {
 
                                         <Nav.Link as={HashLink} to="/addServices">AddServices</Nav.Link>
 
-                                        <Nav.Link as={HashLink} to="/manageServices">Manage Booking</Nav.Link>
+                                        <Nav.Link as={HashLink} to="/manageServices">Manage Services</Nav.Link>
                                         {/* <Nav.Link as={HashLink} to="/booking/:email">My Booking</Nav.Link> */}
 
                                         <p className="text-primary   mt-3" onClick={handleHistory}>My booking</p>

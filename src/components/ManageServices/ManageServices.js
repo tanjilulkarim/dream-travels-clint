@@ -48,9 +48,10 @@ const ManageServices = () => {
                 {
                     services.map(service => <div className="card">
                         <img height="250px" src={service.image} alt="" />
-                        <h1>{service.name}</h1>
-                        <h4>{service.duration}</h4>
-                        <h3>$: {service.price}</h3>
+                        <h1>{service?.name}</h1>
+                        <h4>{service?.duration}</h4>
+                        <h3>$: {service?.price}</h3>
+                        <h3> {service?.email}</h3>
                         <button type="button" class="btn btn-danger" onClick={() => handaleDelete(service?._id)} >Delete</button>
 
                     </div>
